@@ -2,9 +2,6 @@
 
 using namespace std;
 
-int main () {
-
-}
 
 /*Verify that the parameter given by the function is printable. If
 it is printable, check if it is digit and print, ”It is printable and digit.”. If it is
@@ -29,5 +26,9 @@ void printable(char character) {
             cout << "It is not printable" << endl;
 
         }
+}
+
+int main () {
+   printable('a');
 }
 
