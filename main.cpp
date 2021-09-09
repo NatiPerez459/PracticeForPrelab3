@@ -13,4 +13,10 @@ not printable”*/
 
 void printable(char character) {
     bool print = isprint(character);
+        if(print){
+            bool digit = isdigit(character);
+            if(digit){
+                cout << "It is printable and digit." << endl;
+            }
+        }
 }
