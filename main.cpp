@@ -18,5 +18,8 @@ void printable(char character) {
             if(digit){
                 cout << "It is printable and digit." << endl;
             }
+            else{
+                cout << "It is printable." << endl;
+            }
         }
 }
